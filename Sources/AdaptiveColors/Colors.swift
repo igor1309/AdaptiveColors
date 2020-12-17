@@ -16,7 +16,7 @@ public enum Colors: String, CaseIterable {
     /// Material Design https://material.io/design/color/the-color-system.html#tools-for-picking-colors
     case Gray700200, Brown700200, DeepOrange700200, BlueGray700200, Amber700200, Yellow700200, Orange700200, Teal700200, Green700200, LightGreen700200, Lime800300, LightBlue700200, Cyan700200, DeepPurple700300, Indigo700300, Blue700200, Pink700200, Red700200, Purple700200
     
-    var color: Color { Color(rawValue) }
+    public var color: Color { Color(rawValue) }
 }
 
 @available(iOS 13.0, *)
