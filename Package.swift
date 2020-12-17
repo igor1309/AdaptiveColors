@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "AdaptiveColors",
             dependencies: [],
-            resources: [.process("Resources")])
+            resources: [.copy("Resources")])
         .testTarget(
             name: "AdaptiveColorsTests",
             dependencies: ["AdaptiveColors"]),
